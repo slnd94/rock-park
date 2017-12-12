@@ -33,7 +33,7 @@ passport.use(
     // this called by passport AFTER we get the google profile
     // (which we did by using the code google sent to our callback URL):
     async (accessToken, refreshToken, profile, done) => {
-      // see if we have the user matching the google profile id received
+      // see if we have user matching the google profile id received
       const existingUser = await User.findOne({ googleId: profile.id })
       if (existingUser) {
         // we already have this user
