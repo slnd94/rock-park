@@ -17,7 +17,7 @@ class Payments extends Component {
         which can be used if we invoke StripeCheckout
         with a self-closing tag.  If we want to have a custom
         button instead, nest it within the StripeCheckout */}
-        <button className="btn">
+        <button className="btn green">
           Add Credits
         </button>
       </StripeCheckout>
