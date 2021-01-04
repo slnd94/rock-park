@@ -11,7 +11,7 @@
     }
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "concurrently": "^3.5.1",
     "materialize-css": "^0.100.2",
     "node-sass-chokidar": "0.0.3",
